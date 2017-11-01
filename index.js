@@ -1,5 +1,5 @@
 }
-       
+
  function addToCart(item) {		  function addToCart(item) {
 - // write your code here		   //to get random number
     function getRandomInt() {
@@ -13,7 +13,7 @@
     console.log(`${item} has been added to your cart.`)
     return cart;
  }		  }
-       
+
  function viewCart() {		  function viewCart() {
 -  // write your code here		     //if cart has no items
     if (cart.length === 0) {
@@ -40,7 +40,7 @@
     }
     }
  }		  }
-       
+
  function total() {		  function total() {
 -  // write your code here		     var cartContains = [];
     var cartCost = [];
@@ -56,7 +56,7 @@
   }
   return cartTotal
  }		  }
-       
+
  function removeFromCart(item) {		  function removeFromCart(item) {
 -  // write your code here		     var cartContains = [];
     var itemIndex = 0;
@@ -75,7 +75,7 @@
       return cart
     }
  }		  }
-       
+
  function placeOrder(cardNumber) {		  function placeOrder(cardNumber) {
 -  // write your code here		     if (cardNumber == undefined) {
       console.log("Sorry, we don't have a credit card on file for you.")
